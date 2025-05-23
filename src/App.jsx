@@ -8,7 +8,7 @@ import { useDispatch } from 'react-redux';
 import { setUser, clearUser } from './features/auth/authSlice';
 import { useNavigate, Routes, Route } from 'react-router-dom';
 
-import Authpage from './pages/Authpage';
+import Authpage from './pages/AuthPage';
 import Home from './pages/Home';
 
 const App = () => {
